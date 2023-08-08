@@ -29,7 +29,7 @@ Code Anatomy
 // node only!
 const { io } = require("socket.io-client");
 
-// connect to public Bitmap endpoint with Trac
+// connect to public BRC-20 endpoint with Trac
 
 const trac = io("https://brc20.trac.network", {
     autoConnect : true,
@@ -158,7 +158,7 @@ Parallel calls are encouraged. Especially if large amounts of data are requested
 * Example returned object:
 *
 *{
-*  tick: 'bitmap',
+*  tick: 'ordi',
 *  max: '21000000000000000000000000',
 *  lim: '1000000000000000000000',
 *  dec: 18,
