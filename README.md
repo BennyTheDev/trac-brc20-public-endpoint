@@ -65,7 +65,7 @@ trac.on('error', async function(msg){
     console.log(msg);
 });
 
-// example getter to get the transaction size of a block
+// example getter to get a deployed token.
 // the results for this call will be triggered by the 'response' event above.
 // this structure is exactly the same for all available getters of this endpoint.
 
