@@ -35,7 +35,7 @@ const trac = io("https://brc20.trac.network", {
     autoConnect : true,
     reconnection: true,
     reconnectionDelay: 500,
-    econnectionDelayMax : 500,
+    reconnectionDelayMax : 500,
     randomizationFactor : 0
 });
 
